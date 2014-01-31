@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="assets/css/pages/page_search.css">
     <link rel="stylesheet" href="assets/css/pages/page_magazine.css">
     <link rel="stylesheet" href="assets/css/pages/page_brands.css">
+    <link rel="stylesheet" href="assets/css/sidenav.css">
     <!-- CSS Theme -->    
     <link rel="stylesheet" href="assets/css/themes/red.css" id="style_color">
     <link rel="stylesheet" href="assets/css/themes/headers/header2-red.css" id="style_color-header-1">
@@ -63,16 +64,15 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
                             Products
                             <i class="icon-angle-down"></i>
-                        </a>
+                        </a> 
                         <ul class="dropdown-menu">
                             <li><a href="product-template.html">Product Template</a></li>
-                            <li><a href="products_heating-equipment.html">Heating Equipment</a></li>
+                            <li><a href="products.html">Heating Equipment</a></li>
                             <li><a href="products.html">Cooling Equipment</a></li>
                             <li><a href="products.html">Hot Water Heaters</a></li>
+                            <li><a href="products.html">Ductless Systems</a></li>
                             <li><a href="products.html">IAQ</a></li>
-
-                         
-                        </ul>
+                        </ul>                      
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
@@ -120,241 +120,95 @@
 </div><!--/header-->
 <!--=== End Header ===-->    
 
+<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs margin-bottom-40">
+    <div class="container">
+        
+        <ul class="pull-right breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li class="active">Heating Equipment</li>
+        </ul>
+    </div><!--/container-->
+</div><!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
+
 <!--=== Content Part ===-->
 <div class="container">
-    <div class="row magazine-page">
-        <!-- Begin Content -->
-        <div class="col-md-9">
-            <!--Magazine Slider-->
-            <div class="carousel slide carousel-v1 margin-bottom-40" id="myCarousel-1">
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <a href="page_content_caleffi-exellence.html"><img alt="" src="assets/img/posts/2.jpg"></a>
-                        <div class="carousel-caption">
-                            <p>Visit <a style="color:white;" href="http://caleffiexcellence.com/">caleffiexcellence.com</a></p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <a href="page_content_generalaire-vs-honeywell.html"><img alt="" src="assets/img/posts/1.jpg"></a>
-                        </div>
-                    <div class="item">
-                        <img alt="" src="assets/img/posts/3.jpg">
-                    </div>
-                    <div class="item">
-                        <img alt="" src="assets/img/posts/able_south_map.jpg">
-                    </div>
-                </div>
-                
-                <div class="carousel-arrow">
-                    <a data-slide="prev" href="#myCarousel-1" class="left carousel-control">
-                        <i class="icon-angle-left"></i>
-                    </a>
-                    <a data-slide="next" href="#myCarousel-1" class="right carousel-control">
-                        <i class="icon-angle-right"></i>
-                    </a>
-                </div>
-            </div>
-            <!--End Magazine Slider-->
-
-            <!--Magazine News-->
-            <div class="magazine-news">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="magazine-news-img">
-                            <a href="page_content_maytag-8-tools.html"><img class="img-responsive" src="assets/img/posts/maytag-8-tools.jpg" alt=""></a>
-                        </div>
-                        <h3><a href="#">8 Must Have Tools</a></h3>
-                        <div class="by-author">
-                            <strong>by Joey Farruggio</strong>
-                            <span>/ January 3, 2014</span>
-                        </div> 
-                        <p><b>A message from the Nordyne Technical Service Dept:</b><br>
-                        With the demands of today’s higher efficiency HVAC equipment, many of these models require more than basic hand tools for effective installation, and proficient troubleshooting should trouble arise. <a href="page_content_maytag-8-tools.html">Read more<span class="glyphicon glyphicon-chevron-right"></span></a></p>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="magazine-news-img">
-                            <a href="page_content_red-school-house.html"><img class="img-responsive" src="assets/img/posts/red-school-house.jpg" alt=""></a>
-                        </div>
-                        <h3><a href="page_content_red-school-house.html">Bell &amp; Gossett Training Seminars</a></h3>
-                        <div class="by-author">
-                            <strong>by Michael Bleier</strong>
-                            <span>/ January 2, 2014</span>
-                        </div> 
-                        <p>Bell &amp; Gossett has a large schedule of training seminars starting December 2013 through March 2014.</p>
-                    </div>
-                </div>
-            </div>
-            <!--End Magazine News-->
-
-            <hr>
-
-        </div>
-        <!-- End Content -->
-
-        <!-- Begin Sidebar -->
-        <div class="col-md-3">
-            <!-- Magazine Posts -->
-            <div class="row">
-            <div class="magazine-posts col-sm-12">
-                <div class="headline headline-md">
-                   <h2>Upcoming Events</h2>
-                </div>  
-            </div>    
-                <div class="magazine-posts col-md-12 col-sm-6">
-                    <h3><a href="#">Training Class 1</a></h3>
-                    <span>March 4, 2014</span>
-                    <div class="magazine-posts-img">
-                        <a href="#"><img class="img-responsive" src="assets/img/main/1.jpg" alt="">
-                        <span class="magazine-badge magazine-badge-red">Sign Up</span></a>                                    
-                    </div>
-                </div>
-                <div class="magazine-posts col-md-12 col-sm-6">
-                    <h3><a href="#">Training Class 2</a></h3>
-                    <span>April 6, 2014</span>
-                    <div class="magazine-posts-img">
-                        <a href="#"><img class="img-responsive" src="assets/img/main/1.jpg" alt=""></a>
-                        <span class="magazine-badge magazine-badge-red">Sign Up</span>                                    
-                    </div>
-                </div>                
-            </div>
-            <!-- End Magazine Posts -->
-
-            <!-- Social Icons -->
-            <div class="magazine-sb-social margin-bottom-20">
-                <div class="headline headline-md"><h2>Social</h2></div>
-                <ul class="social-icons social-icons-color">
-                    
-                    <li><a href="#" data-original-title="Facebook" class="social_facebook"></a></li>
-                    <li><a href="#" data-original-title="Twitter" class="social_twitter"></a></li>
-                    <li><a href="#" data-original-title="Linkedin" class="social_linkedin"></a></li>
-                </ul>
-                <div class="clearfix"></div>                
-            </div>
-            <!-- End Social Icons -->
-
-            <!-- Quick Links -->
-            <div class="magazine-sb-categories">
-                <div class="headline headline-md"><h2>Quick Links</h2></div>
-                <div class="row">
-                    <ul class="list-unstyled col-xs-6">
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Training Calendar</a></li>
-                        <li><a href="#">Locations</a></li>
-
-                    </ul>                        
-                    <ul class="list-unstyled col-xs-6">
-                        <li><a href="#">Contractor Tools</a></li>
-                        <li><a href="#">Literature</a></li>
-                    </ul>                        
-                </div>
-            </div>
-            <!-- End Quick Links -->
-
-
-        </div>
-        <!-- End Sidebar -->
-    </div>
     <div class="row">
-        <div class="col-md-12">
-            <!-- Our brands -->
-    <div id="brands-flexslider" class="flexslider home brands">
-        <div class="headline"><h2>Our Brands</h2></div>    
-        <ul class="slides">
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/AO_Smith/AO_Smith_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Caleffi/Caleffi_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Fujitsu/Fujitsu_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Generalaire/Generalaire_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Grundfos/Grundfos_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Metalfab/Metalfab_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Nordyne/Maytag_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Nordyne/Gibson_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/NTI/NTI_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Peerless/Peerless_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Rinnai/Rinnai_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Tekmar/Tekmar_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Triangle_Tube/Triangle_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Unico/Unico_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Viessmann/Viessmann_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Webstone/Webstone_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Weil-McLain/Weil_logo.png" alt=""/> 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/logos/Wilo/Wilo_logo.png" alt=""/> 
-                </a>
-            </li>
-        </ul>
-    </div><!--/flexslider-->
-    <!-- End Our brands -->
-        </div>
-    </div>
+
+
+        <!--=== Product Sider Bar ==-->
+       <div class="col-md-3">
+           <div class="tag-box tag-box-v1 row">                               
+                <ul class="list-unstyled">
+                   <li>
+                        <div class="headline headline-md">
+                           <a href=""><h4>Heating Equipment</h4></a>
+                        </div>   
+                        
+                        <ul class="list-unstyled sidenav" id="demo1">
+                           <li><a href="#">Forced Air</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="">Gas Funraces</a></li>
+                                </ul>
+                           </li>
+                        </ul>
+                        <ul class="list-unstyled sidenav" id="demo2">
+                           <li><a href="#">Hydronics</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="">Boilers</a></li>
+                                </ul>
+                           </li>
+                        </ul>
+                    </li>
+                    <li>
+                       <div class="headline headline-md">
+                            <a href=""><h4>Cooling Equipment</h4></a>
+                        </div>
+                        <ul class="list-unstyled sidenav">
+                            <li><a href="#">Condesners</a></li>
+                            <li><a href="#">Air Handlers</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="headline headline-md">
+                           <a href=""><h4>Domestic Hot Water Heaters</h4></a>
+                        </div>   
+                        <ul class="list-unstyled sidenav">
+                           <li><a href="#">Residential</a></li>
+                           <li><a href="#">Commercial</a></li>
+                           <li><a href="#">Tankless</a></li>
+                           <li><a href="#">Indirect Fired</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="headline headline-md">
+                           <a href=""><h4>Ductless Systems</h4></a>
+                        </div>   
+                        <ul class="list-unstyled sidenav">
+                           <li><a href="#">Sinle Zone</a></li>
+                           <li><a href="#">Multi Zone</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="headline headline-md">
+                           <a href=""><h4>IAQ</h4></a>
+                        </div>   
+                        <ul class="list-unstyled sidenav">
+                           <li><a href="#">Humidifiers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+           </div>
+       </div>
+       <!--=== End Product Sider Bar ==-->
+
+        <div class="col-md-9">
+            
+        </div>   
+   </div>
 </div><!--/container-->     
 <!-- End Content Part -->
 
@@ -459,10 +313,16 @@
 <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
 <!-- JS Page Level -->           
 <script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript" src="assets/js/jquery.sidenav.js"></script>
 <script type="text/javascript">
     jQuery(document).ready(function() {
         App.init();
         App.initSliders();
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.sidenav').navgoco();
     });
 </script>
 <!--[if lt IE 9]>
