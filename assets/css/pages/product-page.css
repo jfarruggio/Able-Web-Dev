@@ -1,0 +1,41 @@
+/*Product Page
+------------------------------------*/
+.hide {
+  display: none;
+}
+
+.product-item {
+  margin-top: 25px;
+}
+
+.logo {
+  height: 45px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.logo-place {
+  border-right: 1px solid grey;
+}
+
+.vendor-logo {
+  width: 100px;
+}
+
+.accolade {
+  width: 60px;
+}
+
+ul.list {
+  margin: 0px;
+  padding: 0px;
+}
+ul.list li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+ul#menu {
+	border-bottom: 1px solid #eeeeee;
+}

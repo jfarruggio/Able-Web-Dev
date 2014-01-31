@@ -1,0 +1,7 @@
+/*Linecard
+------------------------------------*/
+
+.linecard img {
+	display: inline-block;
+	height: 100px;
+}
